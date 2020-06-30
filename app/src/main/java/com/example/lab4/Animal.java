@@ -22,7 +22,7 @@ public class Animal implements Serializable {
 
     @Override
     public String toString(){
-        return "Zwierze: [id=" + id + ", gatunek" + gatunek + ", kolor=" + kolor + " wielkosc="+ wielkosc + " ]";
+        return "Zwierze: [id=" + id + ", gatunek=" + gatunek + ", kolor=" + kolor + " wielkosc="+ wielkosc + " ]";
     }
 
     public String getOpis() { return opis;}
@@ -30,5 +30,5 @@ public class Animal implements Serializable {
     public String getKolor() { return kolor;}
     public float getWielkosc() { return wielkosc;}
     public int getId() { return id;}
-    public void setId(int _id) { this.id = id;}
+    public void setId(int id) { this.id = id;}
 }
