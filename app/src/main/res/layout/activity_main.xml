@@ -9,11 +9,12 @@
     <ListView
 
         android:id="@+id/listView"
-        android:layout_width="410dp"
+        android:layout_width="match_parent"
         android:layout_height="730dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteY="1dp"
+        tools:layout_editor_absoluteX="1dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
